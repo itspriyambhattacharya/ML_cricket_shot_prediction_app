@@ -14,7 +14,7 @@ feature_columns = joblib.load("feature_columns.pkl")
 # Streamlit UI
 # -----------------------------
 st.title("🏏 Cricket Shot Prediction System")
-
+st.write("Developed by Priyam Bhattacharya")
 st.write(
     "Enter the ball characteristics below to predict which cricket shot "
     "the batsman is likely to play."
